@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(249, 167, 195); */
+}
+
+body{
+    background-image: url("imgs/Iphone\ Wallpaper\ Blur.gif");
+    background-size: cover;
+    color: white;
+
+}
+.container{
+    height: 35rem;
+    width: 50rem;
+    /* border: 2px solid blue; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 2rem;
+}
+
+.src{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    height: 20rem; 
+    width: 30rem;
+    border-radius: 07rem;
+    /* background-color: rgb(246, 192, 233); */
+}
+
+.text-section{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2.1rem;
+}
+
+.btn1, .btn2, .btn3{
+    height: 2.4rem;
+    width: 5.4rem;
+    border-radius: 1.4rem;
+    font-size: 1.0rem;
+}
+
+.btn3{
+    font-size: 0.6rem;
+}
+
+.btn1:hover{
+    background-color: rgb(17, 143, 10);
+    transition: 0.7s ease-in-out;
+    cursor: pointer;
+    font-size: 1.4rem;
+}
+
+.btn2:hover{
+    background-color: rgb(17, 143, 10);
+    transition: 0.7s ease-in-out;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn3:hover{
+    background-color: rgb(245, 7, 7);
+    transition: 0.7s ease-in-out;
+    cursor: pointer;
+}
+button{
+    color: rgb(0, 0, 0);
+}

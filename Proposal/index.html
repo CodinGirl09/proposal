@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Proposal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="code.js"> -->
+</head>
+<body>
+    <div class="container">
+        <img src="imgs/hey.jpg" alt="love" class="src">
+        <div class="text-section">
+            <h3>Hey ! </h3>
+            <h1 id="heading">Do You Like Me??</h1>
+            <h3><i>Plz say yes.....</i></h3><br>
+            <button id="cl1"class="btn1 ">Yes</button>
+            <button id="cl2" class="btn2">Big Yesss</button>
+            <button id="cl3"class="btn3">No</button>
+        </div>
+    </div>
+
+
+
+    <script>
+        let btn1=document.querySelector("#cl3");
+        btn1.addEventListener("click",function(){
+            let head=document.querySelector("#heading");
+            head.innerText="Plz Maan Jao Naa....!";
+        });
+
+        let btn2=document.querySelector("#cl1");
+        btn2.addEventListener("click",function(){
+            let cont=document.querySelector("#heading");
+            cont.innerText="I Love You....";
+        })
+
+        let btn3=document.querySelector("#cl2");
+        btn3.addEventListener("click",function(){
+            let cont=document.querySelector("#heading");
+            cont.innerText="I Love You too much....";
+        })
+
+
+    </script>
+</body>
+</html>
